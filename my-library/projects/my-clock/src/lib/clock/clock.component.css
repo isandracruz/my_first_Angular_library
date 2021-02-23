@@ -1,0 +1,26 @@
+.wrap{
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+.widget{
+    width: 100%;
+    margin: 2em auto;
+}
+.widget p{
+    display: inline-block;
+    line-height: 1em;        
+}
+
+.reloj{
+    font-family: 'Oswald', sans-serif;
+    font-size: 10em;
+    text-align: center; 
+    height:350px;           
+}

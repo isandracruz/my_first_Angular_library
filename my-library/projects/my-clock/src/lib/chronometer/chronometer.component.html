@@ -1,0 +1,18 @@
+<div class="wrap">
+    <div class="widget">                       
+        <div class="cronometro">                
+            <p id="hora" class="hora">{{hh}}</p>
+            <p>:</p>
+            <p id="minutos" class="minutos">{{mm}}</p>
+            <p>:</p>
+            <p id="segundos" class="segundos">{{ss}}</p>
+            <p>:</p>
+            <p id="centesimas" class="centesimas">{{cc}}</p>                       
+        </div>  
+        <div class="controls">                
+            <button class="buttons" (click)="inicio()">Iniciar</button>  
+            <button class="buttons" (click)="pausa()">Pausar</button>              
+            <button class="buttons" (click)="reinicio()">Reiniciar</button>                     
+        </div>  
+    </div>
+</div> 

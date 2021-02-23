@@ -1,0 +1,59 @@
+.wrap{
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+.widget{
+    width: 100%;
+/*    margin: 2em;*/
+    margin: 2em auto;
+}
+.widget p{
+    display: inline-block;
+    line-height: 1em;      
+}
+
+.widget button{
+    display: inline-block;
+    line-height: 1em;          
+}
+
+.controls{
+    text-align: center; 
+}
+
+.temporizador{
+    font-family: 'Oswald', sans-serif;
+    font-size: 10em;
+    text-align: center; 
+    height:350px;           
+}
+
+.buttons{
+   font-family: 'Oswald', sans-serif;
+   border-radius: 5px; 
+   width: 80px;
+   height: 30px;
+   background-color: rgb(36, 51, 46);
+   color: white;
+   margin: 10px;
+}
+
+.buttons:hover{
+    background-color: rgb(5, 99, 24);
+}
+
+.ftemp{
+    text-align: center;
+    font-size: 25px;
+}
+
+#tempbutton{
+    width: 200px;
+}
